@@ -1,10 +1,10 @@
 body {
-    background-color: white;
     display: flex;
     justify-content: center;
     height: 700px;
     align-items: center;
     background-color: #fafafa;
+
 }
 .form-input {
     width: 400px;
@@ -19,6 +19,7 @@ body {
     padding: 20px;
     width: 300px;
     border-radius: 20px;
+    box-shadow: 2px 3px 43px 29px rgba(0,0,0,0.19);
 }
 input[type='text'][type='password']{
     background: transparent;
@@ -46,4 +47,3 @@ button {
     margin: 20px;
     box-shadow: 2px 3px 43px 29px rgba(0,0,0,0.19);
 }
-</style>
